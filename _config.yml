@@ -30,7 +30,7 @@ title: Yigit Goc Blog
 description: Simple blog for me to show what I do.
 
 # A shorter description for the sidebar.
-tagline: Change `tagline` in `_config.yml`
+tagline: Simple Blog to show what I do.
 
 # A list of keywords for your blog
 keywords: [blog,development,web,laravel,php]
@@ -43,19 +43,17 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Yiğit Selçuk Göç
+  email:               ygoc95@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  - title:             Side Projects
+    url:               /projects/
+  - title:             Resume
+    url:               /resume/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -106,7 +104,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/site-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -204,7 +202,7 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  post_addons:         []
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]
